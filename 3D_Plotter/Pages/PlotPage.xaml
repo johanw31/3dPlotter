@@ -9,6 +9,6 @@
       Title="PlotPage">
 
     <Grid>
-        
+        <TextBox x:Name="PlotPageTB" Width="50"> Hallo Seite 2 </TextBox>
     </Grid>
 </Page>

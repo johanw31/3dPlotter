@@ -13,6 +13,5 @@
             <Button Name="Plot" Width="100" Height="50" Content="Plot"/>
             <Button Name="Settings" Width="100" Height="50" Content="Settings"/>
         </StackPanel>
-        <TextBox    Name="Test" Height="50" Width="200"></TextBox>
     </Grid>
 </Window>

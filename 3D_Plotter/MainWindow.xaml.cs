@@ -49,10 +49,6 @@ namespace _3D_Plotter
             {
                 GlobaleVariablen.n = Plotter.Fakul(5);
                 GlobaleVariablen.rdy = true;
-                Dispatcher.Invoke(() =>
-                {
-                    Test.Text += GlobaleVariablen.n.ToString();
-                });
             });
             StartPlot.Start();
         }
