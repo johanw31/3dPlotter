@@ -27,8 +27,10 @@ namespace _3D_Plotter.Pages
         {
             InitializeComponent();
             PlotPageTB.Text += "\n"+GlobaleVariablen.n.ToString();
-            timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(1); // Aktualisierung alle 1 Sekunde
+            timer = new DispatcherTimer
+            {
+                Interval = TimeSpan.FromSeconds(1) // Aktualisierung alle 1 Sekunde
+            };
             timer.Tick += Timer_Tick;
             timer.Start();
         }
