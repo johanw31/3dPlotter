@@ -9,9 +9,9 @@
     <Grid>
         <Frame x:Name="MainFrame" NavigationUIVisibility="Visible"/>
         <StackPanel Orientation="Horizontal" Height="40" VerticalAlignment="Bottom">
-            <Button Name="Start" Width="100" Height="50" Content="Start"/>
-            <Button Name="Plot" Width="100" Height="50" Content="Plot"/>
-            <Button Name="Settings" Width="100" Height="50" Content="Settings"/>
+            <Button Name="Start" Width="100" Height="50" Content="Start" GotFocus="OnGotFocusHandler" LostFocus="OnLostFocusHandler"/>
+            <Button Name="Plot" Width="100" Height="50" Content="Plot" GotFocus="OnGotFocusHandler" LostFocus="OnLostFocusHandler"/>
+            <Button Name="Settings" Width="100" Height="50" Content="Settings" GotFocus="OnGotFocusHandler" LostFocus="OnLostFocusHandler"/>
         </StackPanel>
     </Grid>
 </Window>

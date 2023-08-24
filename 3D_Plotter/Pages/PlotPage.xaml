@@ -7,6 +7,9 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="PlotPage">
+    <Page.Background>
+        <SolidColorBrush Color="Gray"/>
+    </Page.Background>
 
     <Grid>
         <TextBox x:Name="PlotPageTB" Width="50"> Hallo Seite 2 </TextBox>

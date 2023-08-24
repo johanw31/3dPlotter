@@ -7,8 +7,23 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="SettingsPage">
+    <Page.Background>
+        <SolidColorBrush Color="Gray"/>
+    </Page.Background>
 
     <Grid>
-        
+        <TextBox Width="60" Height="30" Margin="65,20" HorizontalAlignment="Left" VerticalAlignment="Top" TextAlignment="Center"/>
+        <TextBox Width="60" Height="30" Margin="65,60" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox Width="60" Height="30" Margin="65,100" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox Width="60" Height="30" Margin="65,140" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox Width="60" Height="30" Margin="65,180" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Width="60" Margin="10,0" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top">Motor</TextBlock>
+        <TextBlock Width="60" Margin="10,25" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top">Current</TextBlock>
+        <TextBlock Width="60" Margin="10,65" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top">Velocity</TextBlock>
+        <TextBlock Width="60" Margin="10,105" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top">Step Conf</TextBlock>
+        <TextBlock Width="60" Margin="10,145" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top">Ramping</TextBlock>
+        <TextBlock Width="60" Margin="10,185" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top">Motor</TextBlock>
+
+        <Button x:Name="MotorEnableBtn" Content="Motor Enable" Width="80" Height="30"/>
     </Grid>
 </Page>

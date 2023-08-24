@@ -60,5 +60,20 @@ namespace _3D_Plotter
         {
             MainFrame.Content = settingsPage;
         }
+
+        // Raised when Button gains focus.
+        // Changes the color of the Button to Red.
+        private void OnGotFocusHandler(object sender, RoutedEventArgs e)
+        {
+            Button tb = e.Source as Button;
+            tb.Background = Brushes.LightSeaGreen;
+        }
+        // Raised when Button losses focus.
+        // Changes the color of the Button back to white.
+        private void OnLostFocusHandler(object sender, RoutedEventArgs e)
+        {
+            Button tb = e.Source as Button;
+            tb.Background = Brushes.White;
+        }
     }
 }
