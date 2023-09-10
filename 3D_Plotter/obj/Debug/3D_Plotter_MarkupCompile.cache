@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\johan\source\repos\3dPlotter\3D_Plotter\obj\Debug\
+C:\Plotter\3dPlotter\3D_Plotter\obj\Debug\
 _3D_Plotter
 none
 false
 DEBUG;TRACE
-C:\Users\johan\source\repos\3dPlotter\3D_Plotter\App.xaml
+C:\Plotter\3dPlotter\3D_Plotter\App.xaml
 4675176312
 
-13-1014785690
+141198092988
 13-1310406943
 MainWindow.xaml;Pages\PlotPage.xaml;Pages\SettingsPage.xaml;Pages\StartPage.xaml;
 
-False
+True
 

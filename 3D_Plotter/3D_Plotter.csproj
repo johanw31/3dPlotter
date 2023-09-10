@@ -63,10 +63,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\Motor.cs" />
     <Compile Include="Classes\PlotClass.cs" />
     <Compile Include="Classes\SettingsClass.cs" />
     <Compile Include="Classes\StartClass.cs" />
     <Compile Include="Classes\GlobaleVariablen.cs" />
+    <Compile Include="Classes\Tinker\BrickletServoV2.cs" />
+    <Compile Include="Classes\Tinker\BrickletSilentStepperV2.cs" />
+    <Compile Include="Classes\Tinker\IPConnection.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
